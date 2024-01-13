@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+}
+
+.container
+{    background-color: rgba(0, 0, 255, 0.58);
+    /* box-shadow: 10px 2px 3px 5px; */
+   
+    width: 50%;
+    height: 270px;
+    margin: 0 auto;
+    margin-top: 15%;
+    box-shadow: 2px 1px 3px 5px #05375baf;
+    
+}
+
+.innercontainer
+{
+    width: 50%;
+    margin: 0 auto;
+    /* margin-bottom: 150px; */
+}
+#clear,
+#text
+{
+    text-align: center;
+}
+
+.todo-list
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#input
+{
+  position: relative;
+  left: 20px;
+}
+
+#btn
+{
+    position: relative;
+    left: 20px;
+}
+
+.todo-list> div
+{
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.todo-list> h4
+{
+    cursor: pointer;
+}
+
+div li
+{
+    list-style: none;
+    padding-left: 30%;
+}
+
+div> #eb
+{
+    position: fixed;
+    right: 46%;
+    position: fixed;
+
+}
+div> #db
+{
+    position: fixed;
+    left: 54.5%;
+    
+}
